@@ -37,9 +37,8 @@ Users are able to:
 
 ### Links
 
-<!-- UPDATE NA STRONIE NETLIFY -->
-
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [netlify](https://zingy-baklava-82f386.netlify.app/)
+- Live Site URL: [gh-pages](https://mapokes.github.io/TODO-app-with-JSON-save/)
 
 ## My process
 
