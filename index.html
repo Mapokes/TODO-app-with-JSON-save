@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Todo app</title>
+  </head>
+  <body class="dark">
+    <main>
+      <div class="logo">
+        <h1>TODO</h1>
+        <button class="dark-mode">
+          <img class="moon-icon" src="./images/icon-moon.svg" alt="moon-img" />
+          <img class="sun-icon" src="./images/icon-sun.svg" alt="sun-img" />
+        </button>
+      </div>
+
+      <header>
+        <div class="circle-header"></div>
+        <textarea name="create-todo" id="create-todo" rows="1" placeholder="Create a new todo... (press enter to submit)"></textarea>
+      </header>
+
+      <section></section>
+
+      <footer class="desktop-footer">
+        <div class="left">
+          <p class="todo-counter"></p>
+        </div>
+        <div class="middle">
+          <input class="footer-button active" id="show-all-button" type="button" value="All" />
+          <input class="footer-button" id="show-active-button" type="button" value="Active" />
+          <input class="footer-button" id="show-completed-button" type="button" value="Completed" />
+        </div>
+        <div class="right">
+          <input class="clear-comleted" type="button" value="Clear Completed" />
+        </div>
+      </footer>
+      <footer class="mobile-footer">
+        <div class="middle">
+          <input class="footer-button active" id="show-all-button-mobile" type="button" value="All" />
+          <input class="footer-button" id="show-active-button-mobile" type="button" value="Active" />
+          <input class="footer-button" id="show-completed-button-mobile" type="button" value="Completed" />
+        </div>
+      </footer>
+      <div class="bottom">
+        <p>Drag and drop to reorder list</p>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
