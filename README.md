@@ -1,6 +1,6 @@
 # TODO app with JSON save
 
-This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW).
+This is solution by Mapokes to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW).
 
 ## Table of contents
 
@@ -53,5 +53,5 @@ Users are able to:
 ## Author
 
 Solution made by Mapokes
-- Website - https://github.com/Mapokes
-- Frontend Mentor - https://www.frontendmentor.io/profile/Mapokes
+
+- Github - https://github.com/Mapokes
